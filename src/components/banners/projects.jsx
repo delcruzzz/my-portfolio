@@ -14,7 +14,7 @@ export default function Projects() {
     }, [])
 
     return (
-        <section className="w-full min-h-full py-12" id="1">
+        <section className="w-full min-h-full py-12 2xl:py-44" id="1">
            <div className="flex flex-col font-bold text-[2.5rem] md:text-[4rem] align-baseline py-4 md:mx-10">
                 <div>
                     <p>
@@ -34,7 +34,7 @@ export default function Projects() {
                             className="flex"
                         >
                             { projects?.map(img => (
-                                    <motion.div className="min-w-[40rem] p-8" key={ img.id }> {/* item */}
+                                    <motion.div className="2xl:min-w-[60rem] min-w-[40rem] p-8" key={ img.id }> {/* item */}
                                         <img src={ img.img } className="w-full rounded-lg pointer-events-none glow" />
                                     </motion.div>
                                 )
