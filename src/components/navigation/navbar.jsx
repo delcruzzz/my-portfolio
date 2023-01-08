@@ -14,7 +14,7 @@ export default function Navbar() {
         <section className="w-full z-30 top-0 sticky">
             <div className="flex items-center justify-between px-4 md:px-12 py-2">
                 <section className="text-2xl font-bold uppercase">
-                    delcruz
+                    <a href="/">delcruz</a>
                 </section>
                 <section className="hidden md:flex items-center justify-between space-x-56 font-semibold text-md">
                     <nav className="flex flex-col">
