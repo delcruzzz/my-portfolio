@@ -1,6 +1,7 @@
-import Presentation from "./components/banners/presentation";
-import Projects from "./components/banners/projects";
-import Navbar from "./components/navigation/navbar";
+import Presentation from "./components/banners/presentation"
+import Projects from "./components/banners/projects"
+import Technologies from "./components/banners/technologies"
+import Navbar from "./components/navigation/navbar"
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
             <main className="w-full px-4 md:px-12 mx-auto max-w-7xl">
                 <Presentation />
                 <Projects />
+                <Technologies />
             </main>
         </div>
     )

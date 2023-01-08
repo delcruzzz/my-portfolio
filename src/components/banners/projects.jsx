@@ -15,15 +15,14 @@ export default function Projects() {
 
     return (
         <section className="w-full min-h-full py-12" id="1">
-           <div className="flex font-bold text-[2.5rem] md:text-[4rem] align-baseline py-4  md:mx-10">
+           <div className="flex flex-col font-bold text-[2.5rem] md:text-[4rem] align-baseline py-4 md:mx-10">
                 <div>
                     <p>
                         Projects
                     </p>
                     
                 </div>
-            </div>
-            <div>
+                <div>
                     <motion.div 
                         ref={ carousel } 
                         whileTap={{ cursor: "grabbing" }} 
@@ -35,7 +34,7 @@ export default function Projects() {
                             className="flex"
                         >
                             { projects?.map(img => (
-                                    <motion.div className="min-h-[40rem] min-w-[40rem] p-8" key={ img.id }> {/* item */}
+                                    <motion.div className="min-w-[40rem] p-8" key={ img.id }> {/* item */}
                                         <img src={ img.img } className="w-full rounded-lg pointer-events-none glow" />
                                     </motion.div>
                                 )
@@ -43,6 +42,7 @@ export default function Projects() {
                         </motion.div>
                     </motion.div>
                 </div>
+            </div>
         </section>
     )
 }

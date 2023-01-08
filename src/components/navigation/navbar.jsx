@@ -19,7 +19,7 @@ export default function Navbar() {
                 <section className="hidden md:flex items-center justify-between space-x-56 font-semibold text-md">
                     <nav className="flex flex-col">
                         <a href="#1">projects</a>
-                        <a href="#">technologies</a>
+                        <a href="#2">technologies</a>
                     </nav>
                     <nav className="flex flex-col">
                         <a href="#">about me</a>
@@ -27,13 +27,13 @@ export default function Navbar() {
                     </nav>
                 </section>
                 <section className="inline md:hidden">
-                    <button className="" onClick={ handleMenu }>
+                    <button className="" onClick={handleMenu}>
                         <Menu />
                     </button>
                 </section>
             </div>
 
-            <ResNavbar toggle={ toggle } handleMenu={ handleMenu } />
+            <ResNavbar toggle={toggle} handleMenu={handleMenu} />
         </section>
     )
 }
