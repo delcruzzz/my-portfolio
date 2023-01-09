@@ -6,9 +6,9 @@ export default function ResNavbar({ toggle, handleMenu }) {
             <section className="flex items-center justify-end px-4 py-2">
                 <button onClick={ handleMenu }><Close /></button>
             </section>
-            <nav className="flex flex-col px-8 py-4 space-y-10 font-bold text-[2.8rem]">
-                <a href="#" onClick={ handleMenu }>projects</a>
-                <a href="#" onClick={ handleMenu }>technologies</a>
+            <nav className="flex flex-col px-8 py-4 space-y-16 font-bold text-[2.8rem]">
+                <a href="#1" onClick={ handleMenu }>projects</a>
+                <a href="#2" onClick={ handleMenu }>technologies</a>
                 <a href="#" onClick={ handleMenu }>about me</a>
                 <a href="#" onClick={ handleMenu }>contact me</a>
             </nav>

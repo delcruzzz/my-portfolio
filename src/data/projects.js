@@ -2,23 +2,23 @@ import img_project from '../assets/img/img_slider_one.jpg'
 
 export const projects = [
     {
-        id: Symbol().toString(),
+        id: '1',
         img: img_project
     },
     {
-        id: Symbol().toString(),
+        id: '2',
         img: img_project
     },
     {
-        id: Symbol().toString(),
+        id: '3',
         img: img_project
     },
     {
-        id: Symbol().toString(),
+        id: '4',
         img: img_project
     },
     {
-        id: Symbol().toString(),
+        id: '5',
         img: img_project
     },
 ]
