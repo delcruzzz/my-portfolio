@@ -10,7 +10,7 @@ export default function Presentation() {
                     </p>
                     <p>This is the portfolio site of Leonardo Ardila</p>
                     <p>I'm front end developer</p>
-                    <a className="font-semibold text-lg bg-[#3c6255] text-white px-12 py-4 rounded-xl" href='' download={ cv_pdf }>download my CV</a>
+                    <a className="font-semibold text-lg bg-[#3c6255] text-white px-12 py-4 rounded-xl" href={ cv_pdf } target="_blank">View my CV</a>
                 </div>
             </div>
         </section>

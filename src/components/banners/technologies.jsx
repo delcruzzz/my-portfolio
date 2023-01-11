@@ -23,7 +23,7 @@ export default function Technologies() {
             <ArrowRigth />
           </a>
           <a href="#" className="flex items-center space-x-14 border-b-2 border-black">
-            <p>React</p>
+            <p>React JS</p>
             <ArrowRigth />
           </a>
           <a href="#" className="flex items-center space-x-14 border-b-2 border-black">
@@ -35,7 +35,11 @@ export default function Technologies() {
             <ArrowRigth />
           </a>
           <a href="#" className="flex items-center space-x-14 border-b-2 border-black">
-            <p>Express</p>
+            <p>Express JS</p>
+            <ArrowRigth />
+          </a>
+          <a href="#" className="flex items-center space-x-14 border-b-2 border-black">
+            <p>Nest JS</p>
             <ArrowRigth />
           </a>
           <a href="#" className="flex items-center space-x-14 border-b-2 border-black">

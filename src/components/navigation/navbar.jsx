@@ -11,7 +11,7 @@ export default function Navbar() {
     }
 
     return (
-        <section className="w-full z-30 top-0 sticky">
+        <header className="w-full z-30 top-0 sticky">
             <div className="flex items-center justify-between px-4 md:px-12 py-2">
                 <section className="text-2xl font-bold uppercase">
                     <a href="/">delcruz</a>
@@ -34,6 +34,6 @@ export default function Navbar() {
             </div>
 
             <ResNavbar toggle={toggle} handleMenu={handleMenu} />
-        </section>
+        </header>
     )
 }
