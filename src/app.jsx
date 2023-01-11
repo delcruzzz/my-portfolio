@@ -1,6 +1,7 @@
 import Presentation from "./components/banners/presentation"
 import Projects from "./components/banners/projects"
 import Technologies from "./components/banners/technologies"
+import Footer from "./components/footer/footer"
 import Navbar from "./components/navigation/navbar"
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
                 <Projects />
                 <Technologies />
             </main>
+            <Footer />
         </div>
     )
 }
