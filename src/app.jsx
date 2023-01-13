@@ -1,3 +1,4 @@
+import AboutMe from "./components/banners/about_me"
 import Presentation from "./components/banners/presentation"
 import Projects from "./components/banners/projects"
 import Technologies from "./components/banners/technologies"
@@ -10,6 +11,7 @@ export default function App() {
             <Navbar />
             <main className="w-full px-4 md:px-12 mx-auto max-w-7xl">
                 <Presentation />
+                <AboutMe />
                 <Projects />
                 <Technologies />
             </main>
