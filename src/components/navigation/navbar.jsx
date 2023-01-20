@@ -23,7 +23,7 @@ export default function Navbar() {
                     </nav>
                     <nav className="flex flex-col">
                         <a href="#3">about me</a>
-                        <a href="#">contact me</a>
+                        <a href="#4">contact me</a>
                     </nav>
                 </section>
                 <section className="inline md:hidden">

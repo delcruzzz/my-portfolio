@@ -1,4 +1,5 @@
 import AboutMe from "./components/banners/about_me"
+import Contact from "./components/banners/contact"
 import Presentation from "./components/banners/presentation"
 import Projects from "./components/banners/projects"
 import Technologies from "./components/banners/technologies"
@@ -14,6 +15,7 @@ export default function App() {
                 <AboutMe />
                 <Projects />
                 <Technologies />
+                <Contact />
             </main>
             <Footer />
         </div>
