@@ -6,7 +6,10 @@ export default function AboutMe() {
         <section className="text-lg md:text-2xl md:mr-20 space-y-8">
           <div>
             <p>
-              In in pariatur tempor anim eu consequat aliquip enim exercitation id excepteur nisi non reprehenderit. Exercitation sunt ad cupidatat excepteur et et laborum laboris occaecat. Sit reprehenderit sint minim eu. Eiusmod aute occaecat consectetur aliqua occaecat sunt cupidatat. Ullamco Lorem qui aute ea excepteur commodo commodo.
+              I am Leonardo de la Cruz, passionate about development and design as well, but another area that
+              I like music and what can be expressed through it, I think that
+              the most important thing is the sustainability of the code in the long term and the ease in
+              which the end user can use the project developed for them.
             </p>
           </div>
           <div>
