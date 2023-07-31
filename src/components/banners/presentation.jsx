@@ -8,8 +8,8 @@ export default function Presentation() {
                     <p>
                         hello.
                     </p>
-                    <p>This is the portfolio site of Leonardo Ardila</p>
-                    <p>I'm web developer</p>
+                    <p>This is the portfolio site of Leonardo De la cruz</p>
+                    <p>I'm backend developer</p>
                     <a className="font-semibold text-lg bg-[#3c6255] text-white px-12 py-4 rounded-xl" href={ cv_pdf } target="_blank">View my CV</a>
                 </div>
             </div>

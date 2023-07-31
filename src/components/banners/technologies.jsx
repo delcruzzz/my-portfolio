@@ -26,10 +26,6 @@ export default function Technologies() {
             <p>React JS</p>
             <ArrowRigth />
           </a>
-          <a href="https://astro.build/" target="_blank" className="flex items-center space-x-14 border-b-2 border-black">
-            <p>Astro</p>
-            <ArrowRigth />
-          </a>
           <a href="https://vitejs.dev/" target="_blank" className="flex items-center space-x-14 border-b-2 border-black">
             <p>Vite</p>
             <ArrowRigth />
@@ -50,12 +46,8 @@ export default function Technologies() {
             <p>PostgreSQL</p>
             <ArrowRigth />
           </a>
-          <a href="https://www.adobe.com/co/products/photoshop.html" target="_blank" className="flex items-center space-x-14 border-b-2 border-black">
-            <p>Photoshop</p>
-            <ArrowRigth />
-          </a>
-          <a href="https://www.adobe.com/co/products/illustrator.html" target="_blank" className="flex items-center space-x-14 border-b-2 border-black">
-            <p>Illustrator</p>
+          <a href="https://www.mysql.com/" target="_blank" className="flex items-center space-x-14 border-b-2 border-black">
+            <p>MySQL</p>
             <ArrowRigth />
           </a>
         </section>
